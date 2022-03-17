@@ -219,9 +219,9 @@ val_loss = history.history['val_loss']
 
 epochs = range(1, len(acc)+1)
 
-plt.plot(epochs, acc, label='Training mae')
-plt.plot(epochs, val_acc, label='Validation mae')
-plt.title('Training and validation MAE')
+plt.plot(epochs, acc, label='Training acc')
+plt.plot(epochs, val_acc, label='Validation acc')
+plt.title('Training and validation accuracy')
 plt.legend()
 
 plt.figure()
